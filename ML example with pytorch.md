@@ -272,6 +272,9 @@ In both cases, the input sequences are represented as a list of tokens, and the 
 
 
 ### 1. Binary Classification
+
+Binary classification is a type of machine learning task where the goal is to classify data into two distinct classes or categories. The model learns to make predictions by assigning input samples to one of the two classes based on the features or attributes of the data.
+
    - Dataset: Let's consider the popular "Breast Cancer Wisconsin (Diagnostic)" dataset available in scikit-learn, which is a binary classification task.
    - Early stopping: We will use early stopping based on the validation loss.
 
@@ -400,6 +403,9 @@ print(f"Test Loss: {test_loss}")
 ```
 
 ### 2. Multi-class Classification
+
+Multi-class classification is a machine learning task where the objective is to classify data into multiple mutually exclusive classes or categories. The model learns to assign input samples to one of the multiple classes based on the characteristics of the data.
+
    - Dataset: Let's use the "Iris" dataset, which is a classic multi-class classification task.
    - Early stopping: We will use early stopping based on the validation loss.
 
@@ -535,6 +541,9 @@ print(f"Test Accuracy: {accuracy}")
 ```
 
 ### 3. Regression
+
+Regression is a type of machine learning task that involves predicting continuous numerical values. In regression, the model learns to establish a relationship between input features and output values, allowing it to make predictions on unseen data points.
+
    - Dataset: Let's use the "Boston Housing" dataset, which is a regression task.
    - Early stopping: We will use early stopping based on the validation loss.
 
@@ -666,6 +675,9 @@ print(f"Test Loss: {test_loss}")
 ```
 
 ### 4. Recurrent Neural Network (RNN)
+
+Recurrent Neural Networks are a type of neural network architecture designed to process sequential data by capturing dependencies and patterns over time. RNNs have recurrent connections that allow information to persist and be processed across different time steps, making them suitable for tasks such as sequence prediction, natural language processing, and time series analysis.
+
    - Dataset: Let's consider a simple time series dataset for stock price prediction.
    - Early stopping: We will use early stopping based on the validation loss.
 
@@ -805,6 +817,8 @@ print(f"Test Loss: {test_loss}")
 
 ### 5. Convolutional Neural Network (CNN)
 
+Convolutional Neural Networks are a type of neural network architecture commonly used for processing structured grid-like data, such as images. CNNs leverage convolutional layers to extract relevant features from the input data, capturing spatial hierarchies and patterns. They are widely used in computer vision tasks like image classification, object detection, and image segmentation.
+
 ```python
 import torch
 import torch.nn as nn
@@ -900,6 +914,8 @@ These examples should help you get started with building machine learning models
 
 ### 6. Bigram Language Model
 
+A Bigram Language Model is a statistical model used to predict the likelihood of the next word in a sequence of words based on the previous word. It considers pairs of adjacent words (bigrams) and estimates the probability distribution over possible next words. Bigram language models are often used in natural language processing tasks like text generation, machine translation, and speech recognition.
+
 Here's a simple example of building a Bigram Language Model using PyTorch:
 
 ```python
@@ -973,6 +989,8 @@ Note that in this example, you would need to replace `batch_size`, `sequence_len
 
 
 ### 7. Transformer Model
+
+The Transformer model is a neural network architecture that has gained significant popularity in natural language processing tasks. It is based on the self-attention mechanism, allowing the model to capture dependencies between different positions in the input sequence. Transformers have achieved state-of-the-art results in tasks such as machine translation, text summarization, and question answering.
 
 Here's a simple example of building a Transformer model using PyTorch:
 
