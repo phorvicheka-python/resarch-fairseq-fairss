@@ -44,8 +44,7 @@ These brief descriptions and use cases demonstrate the key features and benefits
 The full RobotReviewer system (shown above) performs a risk of bias assessment using the Cochrane Risk of Bias tools. In general, RobotReviewer accepts as input the full text of clinical trial reports (as PDFs). For the version deployed within Trip, RobotReviewer performs a more limited assessment based on the title and abstract only. Moreover, in this case bias predictions are limited to the Random sequence generation, Allocation concealment, and Blinding domains.
 
 The system should reliably perform two tasks:
-- **1/ determine whether a trial is at low risk of bias** (document classification
-of low v high or unclear risk of bias),
+- **1/ determine whether a trial is at low risk of bias** (document classification of low v high or unclear risk of bias),
 ![img_robot_reviewer_01](./img_robot_reviewer_01.png)
 
 - **2/ identify text from the trial report that supports these bias judgments** (sentence classification of relevant v irrelevant). Example of our prototype system showing the bias assessment for random sequence generation and a supporting sentence:
@@ -53,8 +52,9 @@ of low v high or unclear risk of bias),
 
 
 ### Source codes
-[ijmarshall/robotreviewer]([https://](https://github.com/ijmarshall/robotreviewer))
+[ijmarshall/robotreviewer](https://github.com/ijmarshall/robotreviewer)
 Star: **120**
+Created date: **7 years ago**
 Latest release date: **2022-07-18**
 
 
